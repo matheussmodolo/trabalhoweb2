@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios CSS</title>
+    <style>
+        /* Exercício 11.5 */
+        ul ::marker {
+            color: green;
+        }
+
+        /* Exercício 11.9 */
+        ul li:nth-of-type(3) {
+            font-weight: bold;
+        }
+
+        /* Exercício 11.12 */
+        input:enabled {
+            border: 1px solid black;
+        }
+
+        /* Exercício 11.15 */
+        input:valid {
+            border: 1px solid green;
+        }
+
+        /* Exercício 11.19 */
+        input:focus {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Exemplo para Exercício 11.5 -->
+    <ul>
+        <li>Arroz</li>
+        <li>Manteiga</li>
+        <li>Maça</li>
+    </ul>
+
+    <!-- Exemplo para Exercício 11.9 -->
+    <ul>
+        <li>Arroz</li>
+        <li>Feijao</li>
+        <li>Pêra</li>
+    </ul>
+
+    <!-- Exemplo para Exercício 11.12 -->
+    <input type="text" disabled>
+    <input type="text" enabled>
+
+    <!-- Exemplo para Exercício 11.15 -->
+    <input type="text" required>
+    <input type="text" value="Valid input">
+
+    <!-- Exemplo para Exercício 11.19 -->
+    <input type="text" placeholder="Focus here...">
+
+</body>
+
+</html>
